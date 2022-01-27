@@ -1,0 +1,15 @@
+.appBar {
+  height: 60px;
+
+  .container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.heroWrapper {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}

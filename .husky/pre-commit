@@ -1,0 +1,17 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+# Save staged files before doing modifications
+git diff --name-only --cached > ./staged.txt
+
+# Check staged files & apply style modification
+yarn pretty-quick --staged
+yarn lint-staged
+
+# Stage modified files
+while read file; do
+  git add $file
+done <./.husky/_/staged.txt
+
+# Delete temporary staged.txt file
+rm ./staged.txt

@@ -1,0 +1,7 @@
+{
+  "loginForm__login": "Login",
+  "app__heroTitle": "It extends NextJS with popular react libraries to help you build your amazing app",
+  "loginForm__logout": "Logout",
+  "loginForm__username": "Username",
+  "loginForm__hello": "Welcome back {username}!"
+}

@@ -1,0 +1,7 @@
+{
+  "loginForm__login": "Connexion",
+  "app__heroTitle": "Il étends NextJS avec l'aide des meilleures librairies react afin de vous aider à créer votre incroyable application",
+  "loginForm__logout": "Déconnexion",
+  "loginForm__username": "Nom d'utilisateur",
+  "loginForm__hello": "Bon retour parmis nous {username}!"
+}
